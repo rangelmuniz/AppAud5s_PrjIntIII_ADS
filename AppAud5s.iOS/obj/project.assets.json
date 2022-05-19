@@ -1223,24 +1223,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\jucal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\AppAud5s\\AppAud5s.iOS\\AppAud5s.iOS.csproj",
+      "projectUniqueName": "C:\\Dev\\AppAud5s\\AppAud5s_PrjIntIII_ADS\\AppAud5s.iOS\\AppAud5s.iOS.csproj",
       "projectName": "AppAud5s.iOS",
-      "projectPath": "C:\\Users\\User\\source\\repos\\AppAud5s\\AppAud5s.iOS\\AppAud5s.iOS.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\AppAud5s\\AppAud5s.iOS\\obj\\",
+      "projectPath": "C:\\Dev\\AppAud5s\\AppAud5s_PrjIntIII_ADS\\AppAud5s.iOS\\AppAud5s.iOS.csproj",
+      "packagesPath": "C:\\Users\\jucal\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\AppAud5s\\AppAud5s_PrjIntIII_ADS\\AppAud5s.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jucal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1254,8 +1254,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\AppAud5s\\AppAud5s\\AppAud5s.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\AppAud5s\\AppAud5s\\AppAud5s.csproj"
+            "C:\\Dev\\AppAud5s\\AppAud5s_PrjIntIII_ADS\\AppAud5s\\AppAud5s.csproj": {
+              "projectPath": "C:\\Dev\\AppAud5s\\AppAud5s_PrjIntIII_ADS\\AppAud5s\\AppAud5s.csproj"
             }
           }
         }

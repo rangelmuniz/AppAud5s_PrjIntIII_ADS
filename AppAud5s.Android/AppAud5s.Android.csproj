@@ -136,9 +136,9 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResourceAnalysisConfig Include="Resources\drawable\splash_screen.xml">
+    <AndroidResource Include="Resources\drawable\splash_screen.xml">
       <SubType>Designer</SubType>
-    </AndroidResourceAnalysisConfig>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\logo.png" />
