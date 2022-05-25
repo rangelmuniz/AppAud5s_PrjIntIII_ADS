@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             Title="Principal"
+             mc:Ignorable="d"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaConteudo.PaginaPrincipal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Principal" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Cadastro de Notas" TextColor="Crimson" Clicked="AbreCadastroNota"  />
+            <Button Text="Cadastro de Perguntas" Clicked="AbreCadastroPergunta"/>
+            <Button Text="Questionário"  Clicked="AbreQuestionario"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

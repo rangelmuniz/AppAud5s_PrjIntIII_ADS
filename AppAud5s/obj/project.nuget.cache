@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CsYIA89I0Wua8XiDyAV5D94yjWd0HDEMDtXfH2D8QG9xJ1pfdcgDj7FEu437xnAZCHXH76/EkUlMCkqtiVMGcw==",
+  "dgSpecHash": "bN65voy2X0IL5/+v8Q09gZZN6absR/rAyzporbl9v3ufi+UbA3WahGWhYB2cqty8sV9itQFn+io1zC1IjrPzGA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppAud5s\\AppAud5s_PrjIntIII_ADS\\AppAud5s\\AppAud5s.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jucal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jucal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\jucal\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\jucal\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
+    "C:\\Users\\jucal\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
     "C:\\Users\\jucal\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
   ],
   "logs": []

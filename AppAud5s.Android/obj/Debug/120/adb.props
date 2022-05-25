@@ -1,2 +1,2 @@
-AdbTarget=-s ZF52395FJ4
+AdbTarget=-s 192.168.35.102:5555
 AdbOptions=

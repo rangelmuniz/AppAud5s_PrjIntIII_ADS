@@ -1,0 +1,3 @@
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s.Android\obj\Debug\90\build.props
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s.Android\obj\Debug\90\adb.props

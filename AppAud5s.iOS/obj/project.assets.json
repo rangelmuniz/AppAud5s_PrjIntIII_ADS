@@ -35,7 +35,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.2": {
+      "Xamarin.Essentials/1.7.3": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -179,7 +179,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.2",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -224,7 +224,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.2": {
+      "Xamarin.Essentials/1.7.3": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -368,7 +368,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.2",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -413,7 +413,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.2": {
+      "Xamarin.Essentials/1.7.3": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -557,7 +557,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.2",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -602,7 +602,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.2": {
+      "Xamarin.Essentials/1.7.3": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -746,7 +746,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.2",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
@@ -950,10 +950,10 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.7.2": {
-      "sha512": "3r2QA/54YZGw6o+cBmIQdvs9nkT1SNHHvFGl1jg2bJ/INmsPdSU4ddrwhIw6zSWSIMRbemKvXEVov1KwjRk6PQ==",
+    "Xamarin.Essentials/1.7.3": {
+      "sha512": "b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.2",
+      "path": "xamarin.essentials/1.7.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -988,7 +988,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.2.nupkg.sha512",
+        "xamarin.essentials.1.7.3.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -1218,7 +1218,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "AppAud5s >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.Essentials >= 1.7.2",
+      "Xamarin.Essentials >= 1.7.3",
       "Xamarin.Forms >= 5.0.0.2401"
     ]
   },
@@ -1270,7 +1270,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.2, )"
+            "version": "[1.7.3, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

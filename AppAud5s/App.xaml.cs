@@ -9,8 +9,10 @@ namespace AppAud5s
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            var pagina = new NavigationPage(
+                new XamarinForms.Paginas.PaginaConteudo.PaginaPrincipal()                
+                );
+            MainPage = pagina;
         }
 
         protected override void OnStart()

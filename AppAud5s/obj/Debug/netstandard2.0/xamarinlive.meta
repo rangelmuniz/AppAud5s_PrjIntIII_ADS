@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\App.xaml</FilePath>
+      <Hash>9F-C7-57-11-A4-5D-69-2C-19-FE-C2-9A-33-E6-36-88</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\MainPage.xaml</FilePath>
+      <Hash>C7-A2-48-5B-DC-6A-6C-33-00-1F-BB-90-2A-83-C0-37</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\XamarinForms\Paginas\PaginaConteudo\PaginaPrincipal.xaml</FilePath>
+      <Hash>C4-28-9F-A9-3A-9D-6A-49-B7-2C-3D-3D-F7-5B-C4-9E</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

@@ -18,7 +18,6 @@ C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\bin\Debug\netstandard2.0\AppAud5
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\bin\Debug\netstandard2.0\AppAud5s.pdb
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5s.csproj.AssemblyReference.cache
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5s.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5s.AssemblyInfoInputs.cache
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5s.AssemblyInfo.cs
@@ -28,3 +27,8 @@ C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\refint\AppAud5s.dll
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5s.pdb
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\ref\AppAud5s.dll
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaConteudo\PaginaPrincipal.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\PageCadastroNotas.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\PageCadastroPerguntas.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\PageQuestionario.xaml.g.cs
