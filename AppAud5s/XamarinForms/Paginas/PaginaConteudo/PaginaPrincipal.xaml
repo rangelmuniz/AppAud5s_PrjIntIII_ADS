@@ -8,12 +8,12 @@
              x:Class="AppAud5s.XamarinForms.Paginas.PaginaConteudo.PaginaPrincipal">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Principal" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
             <Button Text="Cadastro de Notas" TextColor="Crimson" Clicked="AbreCadastroNota"  />
             <Button Text="Cadastro de Perguntas" Clicked="AbreCadastroPergunta"/>
             <Button Text="Questionário"  Clicked="AbreQuestionario"/>
+            <Label Text="Principal" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -29,6 +29,11 @@ C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\AppAud5
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\ref\AppAud5s.dll
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaConteudo\PaginaPrincipal.xaml.g.cs
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\PageCadastroNotas.xaml.g.cs
-C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\PageCadastroPerguntas.xaml.g.cs
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\PageQuestionario.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\PageCadastroNotas.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\PageCadastroPerguntas.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiketsu.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiso.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiton.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoShitsuke.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiri.xaml.g.cs

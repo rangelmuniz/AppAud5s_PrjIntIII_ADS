@@ -8,12 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroNotas.xaml", "XamarinForms/Paginas/PaginaNavegacao/PageCadastroNotas.xaml", typeof(global::AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroNotas))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.PageCadastroNotas.xam" +
+    "l", "XamarinForms/Paginas/PaginaNavegacao/CadastroNotas/PageCadastroNotas.xaml", typeof(global::AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroNotas))]
 
 namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Paginas\\PaginaNavegacao\\PageCadastroNotas.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Paginas\\PaginaNavegacao\\CadastroNotas\\PageCadastroNotas.xaml")]
     public partial class PageCadastroNotas : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

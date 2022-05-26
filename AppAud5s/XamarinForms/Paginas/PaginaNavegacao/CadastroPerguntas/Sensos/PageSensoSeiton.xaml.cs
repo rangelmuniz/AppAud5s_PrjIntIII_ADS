@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
+namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageCadastroPerguntas : ContentPage
+    public partial class PageSensoSeiton : ContentPage
     {
-        public PageCadastroPerguntas()
+        public PageSensoSeiton()
         {
             InitializeComponent();
         }

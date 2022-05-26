@@ -8,12 +8,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroPerguntas.xaml", "XamarinForms/Paginas/PaginaNavegacao/PageCadastroPerguntas.xaml", typeof(global::AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroPerguntas))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.PageCadastroPergu" +
+    "ntas.xaml", "XamarinForms/Paginas/PaginaNavegacao/CadastroPerguntas/PageCadastroPerguntas.xaml" +
+    "", typeof(global::AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroPerguntas))]
 
 namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Paginas\\PaginaNavegacao\\PageCadastroPerguntas.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Paginas\\PaginaNavegacao\\CadastroPerguntas\\PageCadastroPerguntas.xaml" +
+        "")]
     public partial class PageCadastroPerguntas : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
