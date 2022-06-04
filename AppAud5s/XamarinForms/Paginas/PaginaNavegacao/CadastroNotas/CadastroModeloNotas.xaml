@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Visual="Material"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastroModeloNotas">
+    <ContentPage.Content>
+        <Frame BackgroundColor="WhiteSmoke" CornerRadius="20" Margin="50">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="FillAndExpand">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Criar" FontSize="22" TextColor="Silver"/>
+                                <Span Text="&#10;"/>
+                                <Span Text="Modelo" FontSize="30" FontAttributes="Bold" TextColor="Black"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Text="X" FontSize="22" Padding="20,10" HorizontalOptions="End" FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="FecharModal"/>
+                        </Label.GestureRecognizers>                        
+                    </Label>
+                        
+                </StackLayout>
+                 
+
+                    <Editor Placeholder="Nome" AutoSize="TextChanges"  BackgroundColor="White"/>
+
+                <Button Text="Adicionar" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
+            </StackLayout>  
+            
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

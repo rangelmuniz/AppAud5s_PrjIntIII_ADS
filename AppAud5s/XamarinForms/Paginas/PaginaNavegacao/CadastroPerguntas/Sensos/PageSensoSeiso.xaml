@@ -2,12 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Seiso(Limpeza)"
+             NavigationPage.HasBackButton="False"
              x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiso">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Seiso(Limpeza)"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Póximo Senso" 
+                    Clicked="AvancaSenso"                    
+                    FontAttributes="Bold" />
+            <Button Text="Voltar" 
+                    Clicked="VoltarSenso" 
+                    VerticalOptions="EndAndExpand" 
+                    FontAttributes="Bold" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

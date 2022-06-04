@@ -54,349 +54,525 @@ app_environment_variables:
 	.global	app_system_properties
 app_system_properties:
 	.size	app_system_properties, 0
-	@ Bundled assembly name buffers, all 63 bytes long
+	@ Bundled assembly name buffers, all 70 bytes long
 
 	.section	.bss.bundled_assembly_names, "aw", %nobits
 	.type	.L.env.buf.0, %object
 .L.env.buf.0:
-	.zero	63
-	.size	.L.env.buf.0, 63
+	.zero	70
+	.size	.L.env.buf.0, 70
 	.type	.L.env.buf.1, %object
 .L.env.buf.1:
-	.zero	63
-	.size	.L.env.buf.1, 63
+	.zero	70
+	.size	.L.env.buf.1, 70
 	.type	.L.env.buf.2, %object
 .L.env.buf.2:
-	.zero	63
-	.size	.L.env.buf.2, 63
+	.zero	70
+	.size	.L.env.buf.2, 70
 	.type	.L.env.buf.3, %object
 .L.env.buf.3:
-	.zero	63
-	.size	.L.env.buf.3, 63
+	.zero	70
+	.size	.L.env.buf.3, 70
 	.type	.L.env.buf.4, %object
 .L.env.buf.4:
-	.zero	63
-	.size	.L.env.buf.4, 63
+	.zero	70
+	.size	.L.env.buf.4, 70
 	.type	.L.env.buf.5, %object
 .L.env.buf.5:
-	.zero	63
-	.size	.L.env.buf.5, 63
+	.zero	70
+	.size	.L.env.buf.5, 70
 	.type	.L.env.buf.6, %object
 .L.env.buf.6:
-	.zero	63
-	.size	.L.env.buf.6, 63
+	.zero	70
+	.size	.L.env.buf.6, 70
 	.type	.L.env.buf.7, %object
 .L.env.buf.7:
-	.zero	63
-	.size	.L.env.buf.7, 63
+	.zero	70
+	.size	.L.env.buf.7, 70
 	.type	.L.env.buf.8, %object
 .L.env.buf.8:
-	.zero	63
-	.size	.L.env.buf.8, 63
+	.zero	70
+	.size	.L.env.buf.8, 70
 	.type	.L.env.buf.9, %object
 .L.env.buf.9:
-	.zero	63
-	.size	.L.env.buf.9, 63
+	.zero	70
+	.size	.L.env.buf.9, 70
 	.type	.L.env.buf.10, %object
 .L.env.buf.10:
-	.zero	63
-	.size	.L.env.buf.10, 63
+	.zero	70
+	.size	.L.env.buf.10, 70
 	.type	.L.env.buf.11, %object
 .L.env.buf.11:
-	.zero	63
-	.size	.L.env.buf.11, 63
+	.zero	70
+	.size	.L.env.buf.11, 70
 	.type	.L.env.buf.12, %object
 .L.env.buf.12:
-	.zero	63
-	.size	.L.env.buf.12, 63
+	.zero	70
+	.size	.L.env.buf.12, 70
 	.type	.L.env.buf.13, %object
 .L.env.buf.13:
-	.zero	63
-	.size	.L.env.buf.13, 63
+	.zero	70
+	.size	.L.env.buf.13, 70
 	.type	.L.env.buf.14, %object
 .L.env.buf.14:
-	.zero	63
-	.size	.L.env.buf.14, 63
+	.zero	70
+	.size	.L.env.buf.14, 70
 	.type	.L.env.buf.15, %object
 .L.env.buf.15:
-	.zero	63
-	.size	.L.env.buf.15, 63
+	.zero	70
+	.size	.L.env.buf.15, 70
 	.type	.L.env.buf.16, %object
 .L.env.buf.16:
-	.zero	63
-	.size	.L.env.buf.16, 63
+	.zero	70
+	.size	.L.env.buf.16, 70
 	.type	.L.env.buf.17, %object
 .L.env.buf.17:
-	.zero	63
-	.size	.L.env.buf.17, 63
+	.zero	70
+	.size	.L.env.buf.17, 70
 	.type	.L.env.buf.18, %object
 .L.env.buf.18:
-	.zero	63
-	.size	.L.env.buf.18, 63
+	.zero	70
+	.size	.L.env.buf.18, 70
 	.type	.L.env.buf.19, %object
 .L.env.buf.19:
-	.zero	63
-	.size	.L.env.buf.19, 63
+	.zero	70
+	.size	.L.env.buf.19, 70
 	.type	.L.env.buf.20, %object
 .L.env.buf.20:
-	.zero	63
-	.size	.L.env.buf.20, 63
+	.zero	70
+	.size	.L.env.buf.20, 70
 	.type	.L.env.buf.21, %object
 .L.env.buf.21:
-	.zero	63
-	.size	.L.env.buf.21, 63
+	.zero	70
+	.size	.L.env.buf.21, 70
 	.type	.L.env.buf.22, %object
 .L.env.buf.22:
-	.zero	63
-	.size	.L.env.buf.22, 63
+	.zero	70
+	.size	.L.env.buf.22, 70
 	.type	.L.env.buf.23, %object
 .L.env.buf.23:
-	.zero	63
-	.size	.L.env.buf.23, 63
+	.zero	70
+	.size	.L.env.buf.23, 70
 	.type	.L.env.buf.24, %object
 .L.env.buf.24:
-	.zero	63
-	.size	.L.env.buf.24, 63
+	.zero	70
+	.size	.L.env.buf.24, 70
 	.type	.L.env.buf.25, %object
 .L.env.buf.25:
-	.zero	63
-	.size	.L.env.buf.25, 63
+	.zero	70
+	.size	.L.env.buf.25, 70
 	.type	.L.env.buf.26, %object
 .L.env.buf.26:
-	.zero	63
-	.size	.L.env.buf.26, 63
+	.zero	70
+	.size	.L.env.buf.26, 70
 	.type	.L.env.buf.27, %object
 .L.env.buf.27:
-	.zero	63
-	.size	.L.env.buf.27, 63
+	.zero	70
+	.size	.L.env.buf.27, 70
 	.type	.L.env.buf.28, %object
 .L.env.buf.28:
-	.zero	63
-	.size	.L.env.buf.28, 63
+	.zero	70
+	.size	.L.env.buf.28, 70
 	.type	.L.env.buf.29, %object
 .L.env.buf.29:
-	.zero	63
-	.size	.L.env.buf.29, 63
+	.zero	70
+	.size	.L.env.buf.29, 70
 	.type	.L.env.buf.30, %object
 .L.env.buf.30:
-	.zero	63
-	.size	.L.env.buf.30, 63
+	.zero	70
+	.size	.L.env.buf.30, 70
 	.type	.L.env.buf.31, %object
 .L.env.buf.31:
-	.zero	63
-	.size	.L.env.buf.31, 63
+	.zero	70
+	.size	.L.env.buf.31, 70
 	.type	.L.env.buf.32, %object
 .L.env.buf.32:
-	.zero	63
-	.size	.L.env.buf.32, 63
+	.zero	70
+	.size	.L.env.buf.32, 70
 	.type	.L.env.buf.33, %object
 .L.env.buf.33:
-	.zero	63
-	.size	.L.env.buf.33, 63
+	.zero	70
+	.size	.L.env.buf.33, 70
 	.type	.L.env.buf.34, %object
 .L.env.buf.34:
-	.zero	63
-	.size	.L.env.buf.34, 63
+	.zero	70
+	.size	.L.env.buf.34, 70
 	.type	.L.env.buf.35, %object
 .L.env.buf.35:
-	.zero	63
-	.size	.L.env.buf.35, 63
+	.zero	70
+	.size	.L.env.buf.35, 70
 	.type	.L.env.buf.36, %object
 .L.env.buf.36:
-	.zero	63
-	.size	.L.env.buf.36, 63
+	.zero	70
+	.size	.L.env.buf.36, 70
 	.type	.L.env.buf.37, %object
 .L.env.buf.37:
-	.zero	63
-	.size	.L.env.buf.37, 63
+	.zero	70
+	.size	.L.env.buf.37, 70
 	.type	.L.env.buf.38, %object
 .L.env.buf.38:
-	.zero	63
-	.size	.L.env.buf.38, 63
+	.zero	70
+	.size	.L.env.buf.38, 70
 	.type	.L.env.buf.39, %object
 .L.env.buf.39:
-	.zero	63
-	.size	.L.env.buf.39, 63
+	.zero	70
+	.size	.L.env.buf.39, 70
 	.type	.L.env.buf.40, %object
 .L.env.buf.40:
-	.zero	63
-	.size	.L.env.buf.40, 63
+	.zero	70
+	.size	.L.env.buf.40, 70
 	.type	.L.env.buf.41, %object
 .L.env.buf.41:
-	.zero	63
-	.size	.L.env.buf.41, 63
+	.zero	70
+	.size	.L.env.buf.41, 70
 	.type	.L.env.buf.42, %object
 .L.env.buf.42:
-	.zero	63
-	.size	.L.env.buf.42, 63
+	.zero	70
+	.size	.L.env.buf.42, 70
 	.type	.L.env.buf.43, %object
 .L.env.buf.43:
-	.zero	63
-	.size	.L.env.buf.43, 63
+	.zero	70
+	.size	.L.env.buf.43, 70
 	.type	.L.env.buf.44, %object
 .L.env.buf.44:
-	.zero	63
-	.size	.L.env.buf.44, 63
+	.zero	70
+	.size	.L.env.buf.44, 70
 	.type	.L.env.buf.45, %object
 .L.env.buf.45:
-	.zero	63
-	.size	.L.env.buf.45, 63
+	.zero	70
+	.size	.L.env.buf.45, 70
 	.type	.L.env.buf.46, %object
 .L.env.buf.46:
-	.zero	63
-	.size	.L.env.buf.46, 63
+	.zero	70
+	.size	.L.env.buf.46, 70
 	.type	.L.env.buf.47, %object
 .L.env.buf.47:
-	.zero	63
-	.size	.L.env.buf.47, 63
+	.zero	70
+	.size	.L.env.buf.47, 70
 	.type	.L.env.buf.48, %object
 .L.env.buf.48:
-	.zero	63
-	.size	.L.env.buf.48, 63
+	.zero	70
+	.size	.L.env.buf.48, 70
 	.type	.L.env.buf.49, %object
 .L.env.buf.49:
-	.zero	63
-	.size	.L.env.buf.49, 63
+	.zero	70
+	.size	.L.env.buf.49, 70
 	.type	.L.env.buf.50, %object
 .L.env.buf.50:
-	.zero	63
-	.size	.L.env.buf.50, 63
+	.zero	70
+	.size	.L.env.buf.50, 70
 	.type	.L.env.buf.51, %object
 .L.env.buf.51:
-	.zero	63
-	.size	.L.env.buf.51, 63
+	.zero	70
+	.size	.L.env.buf.51, 70
 	.type	.L.env.buf.52, %object
 .L.env.buf.52:
-	.zero	63
-	.size	.L.env.buf.52, 63
+	.zero	70
+	.size	.L.env.buf.52, 70
 	.type	.L.env.buf.53, %object
 .L.env.buf.53:
-	.zero	63
-	.size	.L.env.buf.53, 63
+	.zero	70
+	.size	.L.env.buf.53, 70
 	.type	.L.env.buf.54, %object
 .L.env.buf.54:
-	.zero	63
-	.size	.L.env.buf.54, 63
+	.zero	70
+	.size	.L.env.buf.54, 70
 	.type	.L.env.buf.55, %object
 .L.env.buf.55:
-	.zero	63
-	.size	.L.env.buf.55, 63
+	.zero	70
+	.size	.L.env.buf.55, 70
 	.type	.L.env.buf.56, %object
 .L.env.buf.56:
-	.zero	63
-	.size	.L.env.buf.56, 63
+	.zero	70
+	.size	.L.env.buf.56, 70
 	.type	.L.env.buf.57, %object
 .L.env.buf.57:
-	.zero	63
-	.size	.L.env.buf.57, 63
+	.zero	70
+	.size	.L.env.buf.57, 70
 	.type	.L.env.buf.58, %object
 .L.env.buf.58:
-	.zero	63
-	.size	.L.env.buf.58, 63
+	.zero	70
+	.size	.L.env.buf.58, 70
 	.type	.L.env.buf.59, %object
 .L.env.buf.59:
-	.zero	63
-	.size	.L.env.buf.59, 63
+	.zero	70
+	.size	.L.env.buf.59, 70
 	.type	.L.env.buf.60, %object
 .L.env.buf.60:
-	.zero	63
-	.size	.L.env.buf.60, 63
+	.zero	70
+	.size	.L.env.buf.60, 70
 	.type	.L.env.buf.61, %object
 .L.env.buf.61:
-	.zero	63
-	.size	.L.env.buf.61, 63
+	.zero	70
+	.size	.L.env.buf.61, 70
 	.type	.L.env.buf.62, %object
 .L.env.buf.62:
-	.zero	63
-	.size	.L.env.buf.62, 63
+	.zero	70
+	.size	.L.env.buf.62, 70
 	.type	.L.env.buf.63, %object
 .L.env.buf.63:
-	.zero	63
-	.size	.L.env.buf.63, 63
+	.zero	70
+	.size	.L.env.buf.63, 70
 	.type	.L.env.buf.64, %object
 .L.env.buf.64:
-	.zero	63
-	.size	.L.env.buf.64, 63
+	.zero	70
+	.size	.L.env.buf.64, 70
 	.type	.L.env.buf.65, %object
 .L.env.buf.65:
-	.zero	63
-	.size	.L.env.buf.65, 63
+	.zero	70
+	.size	.L.env.buf.65, 70
 	.type	.L.env.buf.66, %object
 .L.env.buf.66:
-	.zero	63
-	.size	.L.env.buf.66, 63
+	.zero	70
+	.size	.L.env.buf.66, 70
 	.type	.L.env.buf.67, %object
 .L.env.buf.67:
-	.zero	63
-	.size	.L.env.buf.67, 63
+	.zero	70
+	.size	.L.env.buf.67, 70
 	.type	.L.env.buf.68, %object
 .L.env.buf.68:
-	.zero	63
-	.size	.L.env.buf.68, 63
+	.zero	70
+	.size	.L.env.buf.68, 70
 	.type	.L.env.buf.69, %object
 .L.env.buf.69:
-	.zero	63
-	.size	.L.env.buf.69, 63
+	.zero	70
+	.size	.L.env.buf.69, 70
 	.type	.L.env.buf.70, %object
 .L.env.buf.70:
-	.zero	63
-	.size	.L.env.buf.70, 63
+	.zero	70
+	.size	.L.env.buf.70, 70
 	.type	.L.env.buf.71, %object
 .L.env.buf.71:
-	.zero	63
-	.size	.L.env.buf.71, 63
+	.zero	70
+	.size	.L.env.buf.71, 70
 	.type	.L.env.buf.72, %object
 .L.env.buf.72:
-	.zero	63
-	.size	.L.env.buf.72, 63
+	.zero	70
+	.size	.L.env.buf.72, 70
 	.type	.L.env.buf.73, %object
 .L.env.buf.73:
-	.zero	63
-	.size	.L.env.buf.73, 63
+	.zero	70
+	.size	.L.env.buf.73, 70
 	.type	.L.env.buf.74, %object
 .L.env.buf.74:
-	.zero	63
-	.size	.L.env.buf.74, 63
+	.zero	70
+	.size	.L.env.buf.74, 70
 	.type	.L.env.buf.75, %object
 .L.env.buf.75:
-	.zero	63
-	.size	.L.env.buf.75, 63
+	.zero	70
+	.size	.L.env.buf.75, 70
 	.type	.L.env.buf.76, %object
 .L.env.buf.76:
-	.zero	63
-	.size	.L.env.buf.76, 63
+	.zero	70
+	.size	.L.env.buf.76, 70
 	.type	.L.env.buf.77, %object
 .L.env.buf.77:
-	.zero	63
-	.size	.L.env.buf.77, 63
+	.zero	70
+	.size	.L.env.buf.77, 70
 	.type	.L.env.buf.78, %object
 .L.env.buf.78:
-	.zero	63
-	.size	.L.env.buf.78, 63
+	.zero	70
+	.size	.L.env.buf.78, 70
 	.type	.L.env.buf.79, %object
 .L.env.buf.79:
-	.zero	63
-	.size	.L.env.buf.79, 63
+	.zero	70
+	.size	.L.env.buf.79, 70
 	.type	.L.env.buf.80, %object
 .L.env.buf.80:
-	.zero	63
-	.size	.L.env.buf.80, 63
+	.zero	70
+	.size	.L.env.buf.80, 70
 	.type	.L.env.buf.81, %object
 .L.env.buf.81:
-	.zero	63
-	.size	.L.env.buf.81, 63
+	.zero	70
+	.size	.L.env.buf.81, 70
 	.type	.L.env.buf.82, %object
 .L.env.buf.82:
-	.zero	63
-	.size	.L.env.buf.82, 63
+	.zero	70
+	.size	.L.env.buf.82, 70
 	.type	.L.env.buf.83, %object
 .L.env.buf.83:
-	.zero	63
-	.size	.L.env.buf.83, 63
+	.zero	70
+	.size	.L.env.buf.83, 70
 	.type	.L.env.buf.84, %object
 .L.env.buf.84:
-	.zero	63
-	.size	.L.env.buf.84, 63
+	.zero	70
+	.size	.L.env.buf.84, 70
+	.type	.L.env.buf.85, %object
+.L.env.buf.85:
+	.zero	70
+	.size	.L.env.buf.85, 70
+	.type	.L.env.buf.86, %object
+.L.env.buf.86:
+	.zero	70
+	.size	.L.env.buf.86, 70
+	.type	.L.env.buf.87, %object
+.L.env.buf.87:
+	.zero	70
+	.size	.L.env.buf.87, 70
+	.type	.L.env.buf.88, %object
+.L.env.buf.88:
+	.zero	70
+	.size	.L.env.buf.88, 70
+	.type	.L.env.buf.89, %object
+.L.env.buf.89:
+	.zero	70
+	.size	.L.env.buf.89, 70
+	.type	.L.env.buf.90, %object
+.L.env.buf.90:
+	.zero	70
+	.size	.L.env.buf.90, 70
+	.type	.L.env.buf.91, %object
+.L.env.buf.91:
+	.zero	70
+	.size	.L.env.buf.91, 70
+	.type	.L.env.buf.92, %object
+.L.env.buf.92:
+	.zero	70
+	.size	.L.env.buf.92, 70
+	.type	.L.env.buf.93, %object
+.L.env.buf.93:
+	.zero	70
+	.size	.L.env.buf.93, 70
+	.type	.L.env.buf.94, %object
+.L.env.buf.94:
+	.zero	70
+	.size	.L.env.buf.94, 70
+	.type	.L.env.buf.95, %object
+.L.env.buf.95:
+	.zero	70
+	.size	.L.env.buf.95, 70
+	.type	.L.env.buf.96, %object
+.L.env.buf.96:
+	.zero	70
+	.size	.L.env.buf.96, 70
+	.type	.L.env.buf.97, %object
+.L.env.buf.97:
+	.zero	70
+	.size	.L.env.buf.97, 70
+	.type	.L.env.buf.98, %object
+.L.env.buf.98:
+	.zero	70
+	.size	.L.env.buf.98, 70
+	.type	.L.env.buf.99, %object
+.L.env.buf.99:
+	.zero	70
+	.size	.L.env.buf.99, 70
+	.type	.L.env.buf.100, %object
+.L.env.buf.100:
+	.zero	70
+	.size	.L.env.buf.100, 70
+	.type	.L.env.buf.101, %object
+.L.env.buf.101:
+	.zero	70
+	.size	.L.env.buf.101, 70
+	.type	.L.env.buf.102, %object
+.L.env.buf.102:
+	.zero	70
+	.size	.L.env.buf.102, 70
+	.type	.L.env.buf.103, %object
+.L.env.buf.103:
+	.zero	70
+	.size	.L.env.buf.103, 70
+	.type	.L.env.buf.104, %object
+.L.env.buf.104:
+	.zero	70
+	.size	.L.env.buf.104, 70
+	.type	.L.env.buf.105, %object
+.L.env.buf.105:
+	.zero	70
+	.size	.L.env.buf.105, 70
+	.type	.L.env.buf.106, %object
+.L.env.buf.106:
+	.zero	70
+	.size	.L.env.buf.106, 70
+	.type	.L.env.buf.107, %object
+.L.env.buf.107:
+	.zero	70
+	.size	.L.env.buf.107, 70
+	.type	.L.env.buf.108, %object
+.L.env.buf.108:
+	.zero	70
+	.size	.L.env.buf.108, 70
+	.type	.L.env.buf.109, %object
+.L.env.buf.109:
+	.zero	70
+	.size	.L.env.buf.109, 70
+	.type	.L.env.buf.110, %object
+.L.env.buf.110:
+	.zero	70
+	.size	.L.env.buf.110, 70
+	.type	.L.env.buf.111, %object
+.L.env.buf.111:
+	.zero	70
+	.size	.L.env.buf.111, 70
+	.type	.L.env.buf.112, %object
+.L.env.buf.112:
+	.zero	70
+	.size	.L.env.buf.112, 70
+	.type	.L.env.buf.113, %object
+.L.env.buf.113:
+	.zero	70
+	.size	.L.env.buf.113, 70
+	.type	.L.env.buf.114, %object
+.L.env.buf.114:
+	.zero	70
+	.size	.L.env.buf.114, 70
+	.type	.L.env.buf.115, %object
+.L.env.buf.115:
+	.zero	70
+	.size	.L.env.buf.115, 70
+	.type	.L.env.buf.116, %object
+.L.env.buf.116:
+	.zero	70
+	.size	.L.env.buf.116, 70
+	.type	.L.env.buf.117, %object
+.L.env.buf.117:
+	.zero	70
+	.size	.L.env.buf.117, 70
+	.type	.L.env.buf.118, %object
+.L.env.buf.118:
+	.zero	70
+	.size	.L.env.buf.118, 70
+	.type	.L.env.buf.119, %object
+.L.env.buf.119:
+	.zero	70
+	.size	.L.env.buf.119, 70
+	.type	.L.env.buf.120, %object
+.L.env.buf.120:
+	.zero	70
+	.size	.L.env.buf.120, 70
+	.type	.L.env.buf.121, %object
+.L.env.buf.121:
+	.zero	70
+	.size	.L.env.buf.121, 70
+	.type	.L.env.buf.122, %object
+.L.env.buf.122:
+	.zero	70
+	.size	.L.env.buf.122, 70
+	.type	.L.env.buf.123, %object
+.L.env.buf.123:
+	.zero	70
+	.size	.L.env.buf.123, 70
+	.type	.L.env.buf.124, %object
+.L.env.buf.124:
+	.zero	70
+	.size	.L.env.buf.124, 70
+	.type	.L.env.buf.125, %object
+.L.env.buf.125:
+	.zero	70
+	.size	.L.env.buf.125, 70
+	.type	.L.env.buf.126, %object
+.L.env.buf.126:
+	.zero	70
+	.size	.L.env.buf.126, 70
+	.type	.L.env.buf.127, %object
+.L.env.buf.127:
+	.zero	70
+	.size	.L.env.buf.127, 70
+	.type	.L.env.buf.128, %object
+.L.env.buf.128:
+	.zero	70
+	.size	.L.env.buf.128, 70
 	@ Bundled assemblies data
 
 	.type	bundled_assemblies, %object
@@ -1000,7 +1176,315 @@ bundled_assemblies:
 	.long	0x0	@ name_length
 	.long	.L.env.buf.84	@ name
 
-	.size	bundled_assemblies, 2040
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.85	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.86	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.87	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.88	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.89	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.90	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.91	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.92	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.93	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.94	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.95	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.96	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.97	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.98	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.99	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.100	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.101	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.102	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.103	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.104	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.105	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.106	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.107	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.108	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.109	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.110	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.111	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.112	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.113	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.114	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.115	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.116	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.117	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.118	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.119	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.120	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.121	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.122	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.123	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.124	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.125	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.126	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.127	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.128	@ name
+
+	.size	bundled_assemblies, 3096
 	@ Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, %object
 	.global	assembly_store_bundled_assemblies
@@ -1098,11 +1582,19 @@ dso_cache:
 	.long	0x0	@ handle
 	.zero	4
 
+	.long	0x63dbfd2d	@ hash, from name: e_sqlite3
+	.long	0x0
+	.byte	0x0	@ ignore
+	.zero	3
+	.long	.L.autostr.23	@ name: libe_sqlite3.so
+	.long	0x0	@ handle
+	.zero	4
+
 	.long	0x6bede289	@ hash, from name: mono-profiler-log.so
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.23	@ name: libmono-profiler-log.so
+	.long	.L.autostr.24	@ name: libmono-profiler-log.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1110,7 +1602,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.24	@ name: libmono-native.so
+	.long	.L.autostr.25	@ name: libmono-native.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1118,7 +1610,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.25	@ name: libxamarin-debug-app-helper.so
+	.long	.L.autostr.26	@ name: libxamarin-debug-app-helper.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1126,7 +1618,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.26	@ name: libmonosgen-2.0.so
+	.long	.L.autostr.27	@ name: libmonosgen-2.0.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1134,7 +1626,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.27	@ name: libmono-native.so
+	.long	.L.autostr.28	@ name: libmono-native.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1142,7 +1634,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.28	@ name: libmonosgen-2.0.so
+	.long	.L.autostr.29	@ name: libmonosgen-2.0.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1150,7 +1642,15 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.29	@ name: libxa-internal-api.so
+	.long	.L.autostr.30	@ name: libxa-internal-api.so
+	.long	0x0	@ handle
+	.zero	4
+
+	.long	0xaaa0f888	@ hash, from name: e_sqlite3.so
+	.long	0x0
+	.byte	0x0	@ ignore
+	.zero	3
+	.long	.L.autostr.31	@ name: libe_sqlite3.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1158,7 +1658,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.30	@ name: libmono-profiler-log.so
+	.long	.L.autostr.32	@ name: libmono-profiler-log.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1166,7 +1666,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.31	@ name: libmono-native.so
+	.long	.L.autostr.33	@ name: libmono-native.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1174,7 +1674,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.32	@ name: libmono-btls-shared.so
+	.long	.L.autostr.34	@ name: libmono-btls-shared.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1182,7 +1682,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.33	@ name: libmonodroid.so
+	.long	.L.autostr.35	@ name: libmonodroid.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1190,7 +1690,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.34	@ name: libxa-internal-api.so
+	.long	.L.autostr.36	@ name: libxa-internal-api.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1198,7 +1698,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.35	@ name: libmono-profiler-log.so
+	.long	.L.autostr.37	@ name: libmono-profiler-log.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1206,7 +1706,15 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.36	@ name: libmonodroid.so
+	.long	.L.autostr.38	@ name: libmonodroid.so
+	.long	0x0	@ handle
+	.zero	4
+
+	.long	0xdb3258f7	@ hash, from name: libe_sqlite3
+	.long	0x0
+	.byte	0x0	@ ignore
+	.zero	3
+	.long	.L.autostr.39	@ name: libe_sqlite3.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1214,7 +1722,15 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.37	@ name: libmono-btls-shared.so
+	.long	.L.autostr.40	@ name: libmono-btls-shared.so
+	.long	0x0	@ handle
+	.zero	4
+
+	.long	0xdeed9f74	@ hash, from name: libe_sqlite3.so
+	.long	0x0
+	.byte	0x0	@ ignore
+	.zero	3
+	.long	.L.autostr.41	@ name: libe_sqlite3.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1222,7 +1738,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.38	@ name: libmonosgen-2.0.so
+	.long	.L.autostr.42	@ name: libmonosgen-2.0.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1230,7 +1746,7 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.39	@ name: libmono-btls-shared.so
+	.long	.L.autostr.43	@ name: libmono-btls-shared.so
 	.long	0x0	@ handle
 	.zero	4
 
@@ -1238,11 +1754,11 @@ dso_cache:
 	.long	0x0
 	.byte	0x0	@ ignore
 	.zero	3
-	.long	.L.autostr.40	@ name: libmonosgen-2.0.so
+	.long	.L.autostr.44	@ name: libmonosgen-2.0.so
 	.long	0x0	@ handle
 	.zero	4
 
-	.size	dso_cache, 672
+	.size	dso_cache, 768
 
 	@
 	@ Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.0.26, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
@@ -1267,12 +1783,12 @@ application_config:
 	.long	0x3	@ package_naming_policy
 	.long	0xc	@ environment_variable_count
 	.long	0x0	@ system_property_count
-	.long	0x55	@ number_of_assemblies_in_apk
-	.long	0x3f	@ bundled_assembly_name_width
+	.long	0x81	@ number_of_assemblies_in_apk
+	.long	0x46	@ bundled_assembly_name_width
 	.long	0x2	@ number_of_assembly_store_files
-	.long	0x1c	@ number_of_dso_cache_entries
+	.long	0x20	@ number_of_dso_cache_entries
 	.long	0x0	@ mono_components_mask
-	.long	.L.autostr.41	@ android_package_name
+	.long	.L.autostr.45	@ android_package_name
 	.size	application_config, 48
 
 
@@ -1309,7 +1825,7 @@ application_config:
 
 	.type	.L.autostr.6, %object
 .L.autostr.6:
-	.asciz	"187590d3-1ae1-4562-9e2b-d17ae4799733"
+	.asciz	"246718a1-d2b9-41b7-96ca-820d62e4be4f"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, %object
@@ -1394,98 +1910,118 @@ application_config:
 
 	.type	.L.autostr.23, %object
 .L.autostr.23:
-	.asciz	"libmono-profiler-log.so"
-	.size	.L.autostr.23, 24
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.23, 16
 
 	.type	.L.autostr.24, %object
 .L.autostr.24:
-	.asciz	"libmono-native.so"
-	.size	.L.autostr.24, 18
+	.asciz	"libmono-profiler-log.so"
+	.size	.L.autostr.24, 24
 
 	.type	.L.autostr.25, %object
 .L.autostr.25:
-	.asciz	"libxamarin-debug-app-helper.so"
-	.size	.L.autostr.25, 31
+	.asciz	"libmono-native.so"
+	.size	.L.autostr.25, 18
 
 	.type	.L.autostr.26, %object
 .L.autostr.26:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.26, 19
+	.asciz	"libxamarin-debug-app-helper.so"
+	.size	.L.autostr.26, 31
 
 	.type	.L.autostr.27, %object
 .L.autostr.27:
-	.asciz	"libmono-native.so"
-	.size	.L.autostr.27, 18
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.27, 19
 
 	.type	.L.autostr.28, %object
 .L.autostr.28:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.28, 19
+	.asciz	"libmono-native.so"
+	.size	.L.autostr.28, 18
 
 	.type	.L.autostr.29, %object
 .L.autostr.29:
-	.asciz	"libxa-internal-api.so"
-	.size	.L.autostr.29, 22
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.29, 19
 
 	.type	.L.autostr.30, %object
 .L.autostr.30:
-	.asciz	"libmono-profiler-log.so"
-	.size	.L.autostr.30, 24
+	.asciz	"libxa-internal-api.so"
+	.size	.L.autostr.30, 22
 
 	.type	.L.autostr.31, %object
 .L.autostr.31:
-	.asciz	"libmono-native.so"
-	.size	.L.autostr.31, 18
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.31, 16
 
 	.type	.L.autostr.32, %object
 .L.autostr.32:
-	.asciz	"libmono-btls-shared.so"
-	.size	.L.autostr.32, 23
+	.asciz	"libmono-profiler-log.so"
+	.size	.L.autostr.32, 24
 
 	.type	.L.autostr.33, %object
 .L.autostr.33:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.33, 16
+	.asciz	"libmono-native.so"
+	.size	.L.autostr.33, 18
 
 	.type	.L.autostr.34, %object
 .L.autostr.34:
-	.asciz	"libxa-internal-api.so"
-	.size	.L.autostr.34, 22
+	.asciz	"libmono-btls-shared.so"
+	.size	.L.autostr.34, 23
 
 	.type	.L.autostr.35, %object
 .L.autostr.35:
-	.asciz	"libmono-profiler-log.so"
-	.size	.L.autostr.35, 24
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.35, 16
 
 	.type	.L.autostr.36, %object
 .L.autostr.36:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.36, 16
+	.asciz	"libxa-internal-api.so"
+	.size	.L.autostr.36, 22
 
 	.type	.L.autostr.37, %object
 .L.autostr.37:
-	.asciz	"libmono-btls-shared.so"
-	.size	.L.autostr.37, 23
+	.asciz	"libmono-profiler-log.so"
+	.size	.L.autostr.37, 24
 
 	.type	.L.autostr.38, %object
 .L.autostr.38:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.38, 19
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.38, 16
 
 	.type	.L.autostr.39, %object
 .L.autostr.39:
-	.asciz	"libmono-btls-shared.so"
-	.size	.L.autostr.39, 23
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.39, 16
 
 	.type	.L.autostr.40, %object
 .L.autostr.40:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.40, 19
+	.asciz	"libmono-btls-shared.so"
+	.size	.L.autostr.40, 23
 
 	.type	.L.autostr.41, %object
 .L.autostr.41:
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.41, 16
+
+	.type	.L.autostr.42, %object
+.L.autostr.42:
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.42, 19
+
+	.type	.L.autostr.43, %object
+.L.autostr.43:
+	.asciz	"libmono-btls-shared.so"
+	.size	.L.autostr.43, 23
+
+	.type	.L.autostr.44, %object
+.L.autostr.44:
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.44, 19
+
+	.type	.L.autostr.45, %object
+.L.autostr.45:
 	.asciz	"com.companyname.appaud5s"
-	.size	.L.autostr.41, 25
+	.size	.L.autostr.45, 25
 
 
 	.ident	"Xamarin.Android remotes/origin/d17-2 @ bbba5a21f3b649a761b22d83959758b4d30df672"

@@ -37,3 +37,8 @@ C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\Xamarin
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiton.xaml.g.cs
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoShitsuke.xaml.g.cs
 C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiri.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\AppBase\Menu.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\ListarPerguntas.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastroModeloNotas.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastrarIndicadorNota.xaml.g.cs
+C:\Dev\AppAud5s\AppAud5s_PrjIntIII_ADS\AppAud5s\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastroIndicador.xaml.g.cs

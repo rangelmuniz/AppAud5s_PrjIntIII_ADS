@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F5F6FA"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.ListarPerguntas">             
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label FontSize="30" Margin="20,40,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Listar"/>
+                            <Span Text="&#10;"/>
+                            <Span Text="Perguntas"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>                   
+                    <Frame Grid.Column="1" Margin="0,20,20,0" BackgroundColor="#4043C9" CornerRadius="20" HasShadow="False">
+                    <Label TextColor="White" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Senso"/>
+                                <Span Text="&#10;"/>
+                                <Span Text="Seiri"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>                    
+                </Frame>
+            </Grid>
+
+            <Frame HasShadow="False" Grid.Row="1" CornerRadius="30">
+
+            </Frame>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

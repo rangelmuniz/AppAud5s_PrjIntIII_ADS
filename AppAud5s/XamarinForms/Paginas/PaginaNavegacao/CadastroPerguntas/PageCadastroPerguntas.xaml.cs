@@ -15,6 +15,9 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
         public PageCadastroPerguntas()
         {
             InitializeComponent();
+
+            //Imagem01.Source = ImageSource.FromResource("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.metodologiaCincoS.png"); 
+
         }
 
         private void ChamarSensoSeiri(object sender, EventArgs e)
@@ -25,6 +28,11 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
         private void VoltarPaginaAnterior(object sender, EventArgs e)
         {
             Navigation.PopAsync();
+        }
+
+        private void GetTelaListarPerguntas(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PaginaNavegacao.CadastroPerguntas.ListarPerguntas());
         }
     }
 }

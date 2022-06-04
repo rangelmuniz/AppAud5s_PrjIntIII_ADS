@@ -1,14 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Cadastro de Nota"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Silver"
              x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageCadastroNotas">
             
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Cadastro de Notas"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label TextColor="White"  FontSize="30" Margin="20,40,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Modelo de Notas"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+            <Frame  Grid.Row="1" CornerRadius="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Text="AbreCadatroIndicador" FontSize="22" Padding="20,10" FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="AbreCadastroNotasIndicador"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+
+
+
+                    <Button Text="+" 
+                        FontSize="36" 
+                        TextColor="White"                       
+                        BackgroundColor="GreenYellow" 
+                        Clicked="BtnCadastrarModeloNota" 
+                        CornerRadius="50"
+                        HorizontalOptions="End"
+                        WidthRequest="75"
+                        HeightRequest="75" VerticalOptions="End"    
+                        TranslationY="-30"/>
+                </Grid>
+            </Frame>
+            
+        </Grid>        
     </ContentPage.Content>
 </ContentPage>

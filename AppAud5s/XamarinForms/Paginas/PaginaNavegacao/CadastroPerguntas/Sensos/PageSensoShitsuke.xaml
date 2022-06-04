@@ -8,6 +8,13 @@
             <Label Text="Shitsuke(Disciplina/Autodisciplina)"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Finalizar" 
+                    Clicked="Button_Clicked"                    
+                    FontAttributes="Bold" />
+            <Button Text="Voltar" 
+                    Clicked="VoltarSenso" 
+                    VerticalOptions="EndAndExpand" 
+                    FontAttributes="Bold" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

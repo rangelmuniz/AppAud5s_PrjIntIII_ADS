@@ -16,5 +16,15 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopToRootAsync();
+        }
+
+        private void VoltarSenso(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
     }
 }

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Genymobile Custom Phone</SelectedDevice>
+    <SelectedDevice>Genymobile Samsung Galaxy S10</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Genymobile Custom Phone</ActiveDebugProfile>
+    <ActiveDebugProfile>Genymobile Samsung Galaxy S10</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>

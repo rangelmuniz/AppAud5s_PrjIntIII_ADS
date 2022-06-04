@@ -16,5 +16,15 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
         {
             InitializeComponent();
         }
+
+        private void BtnCadastrarModeloNota(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastroModeloNotas());
+        }
+
+        private void AbreCadastroNotasIndicador(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastrarIndicadorNota());
+        }
     }
 }

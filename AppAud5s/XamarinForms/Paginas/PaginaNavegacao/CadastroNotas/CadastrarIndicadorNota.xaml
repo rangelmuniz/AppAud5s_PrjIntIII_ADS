@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Visual="Material"
+             BackgroundColor="Silver"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastrarIndicadorNota">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label TextColor="White"  FontSize="30" Margin="20,40,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Meta"/>
+                            <Span Text="&#10;"/>
+                            <Span Text="Indicadores"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+            <Frame  Grid.Row="1" CornerRadius="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+
+                    <Button Text="+" 
+                        FontSize="36" 
+                        TextColor="White"                       
+                        BackgroundColor="DarkBlue"
+                        Clicked="BtnCadastrarNovoIndicador" 
+                        CornerRadius="50"
+                        HorizontalOptions="End"
+                        WidthRequest="75"
+                        HeightRequest="75" VerticalOptions="End"    
+                        TranslationY="-30"/>
+                </Grid>
+            </Frame>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppAud5s.AppBase"
+             x:Class="AppAud5s.AppBase.Menu">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Label Text="Páginas"/>
+                <Button Text="Página Principal" Clicked="GetPaginaCadastroPerguntas"/>
+            </StackLayout>
+        </ContentPage>          
+    </MasterDetailPage.Master>
+        <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:Inicio/>
+            </x:Arguments>            
+        </NavigationPage>        
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

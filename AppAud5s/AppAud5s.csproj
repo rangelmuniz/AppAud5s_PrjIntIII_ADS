@@ -11,14 +11,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AppBase\**" />
     <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\NovaPasta\**" />
+    <EmbeddedResource Remove="AppBase\**" />
     <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\NovaPasta\**" />
+    <None Remove="AppBase\**" />
     <None Remove="XamarinForms\Paginas\PaginaNavegacao\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page1.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page1.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\metodologiaCincoS.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.25" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2401" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2401" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,7 +48,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="XamarinForms\AppBase\Menu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaConteudo\PaginaPrincipal.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastrarIndicadorNota.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastroIndicador.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastroModeloNotas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\ListarPerguntas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiketsu.xaml">

@@ -3,18 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             Title="Seiri(Utilização/Organização)"
              NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
              x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiri">
     <ContentPage.Content>
         <StackLayout>
             
             <Label Text="Seiri(Utilização/Organização)"
                 VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" />  
+            <Button Text="Póximo Senso" 
+                    Clicked="AvancaSenso"
+                    BackgroundColor="LightGreen"
+                    VerticalOptions="End" 
+                    BorderColor="Black"                                                          
+                    BorderRadius="10"
+                    BorderWidth="2"                      
+                    FontAttributes="Bold" />
             <Button Text="Voltar" 
                     Clicked="VoltarPaginaAnterior" 
-                    VerticalOptions="EndAndExpand" 
-                    FontAttributes="Bold" />
+                    BackgroundColor="IndianRed"
+                    VerticalOptions="End" 
+                    BorderColor="Black"                                                          
+                    BorderRadius="10"
+                    BorderWidth="2"                      
+                    FontAttributes="Bold"  />
                 
         </StackLayout>
     </ContentPage.Content>
