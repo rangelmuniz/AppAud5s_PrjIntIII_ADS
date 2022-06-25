@@ -119,7 +119,7 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos
 
         private void btnProximoSenso(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiton(IdModeloPergunta));
+            Navigation.PushAsync(new PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiton(IdModeloPergunta));
         }
 
         //protected override bool OnBackButtonPressed()

@@ -44,12 +44,23 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas
             }
         }
 
+        private int _idModelo;
+
+        public int IdModelo
+        {
+            get
+            {
+                return _idModelo;
+            }
+            set
+            {
+                _idModelo = value;
+            }
+        }
 
         public CadastrarIndicadorNota()
         {
-            InitializeComponent();          
-
-            //AtualizarListaIndicador();
+            InitializeComponent();       
 
             MessagingCenter.Subscribe<CadastrarIndicadorNota, Indicador>(this, "onIndicadorCadastrado", (CadastrarIndicadorNota, indicador) =>
             {
@@ -63,10 +74,10 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas
             AtualizarListaIndicador();
         }
 
-        public CadastrarIndicadorNota(ModeloNota modelo)
+        public CadastrarIndicadorNota(int aIdModelo)
         {
             InitializeComponent();
-            this.modelo = modelo;
+            IdModelo = aIdModelo;
             AtualizarListaIndicador();
         }
 
@@ -79,21 +90,20 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas
         {
             //var evento = (TappedEventArgs)e;
             //var modelo = (ModeloNota)evento.Parameter;
-            var CodModelo = modelo.Id;
+           
 
-            Navigation.PushModalAsync(new XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastroIndicador(CodModelo));
+            Navigation.PushModalAsync(new XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastroIndicador(IdModelo));
         }
 
         private void  AtualizarListaIndicador()
         {
-            var CodModelo = modelo.Id;
-
+           
             Task.Run(() =>
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {                   
                     Lista = new ObservableCollection<Indicador>(
-                        await new RepositoryIndicador().PesquisarAsync(CodModelo)
+                        await new RepositoryIndicador().PesquisarAsync(IdModelo)
                  );
                     cvListaIndicador.ItemsSource = Lista;
                 });

@@ -83,7 +83,7 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas
             var evento = (TappedEventArgs)e;
             var modelo = (ModeloPergunta)evento.Parameter;
 
-            Navigation.PushModalAsync(new PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiri(modelo.Id));
+            Navigation.PushAsync(new PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiri(modelo.Id));
         }
 
 

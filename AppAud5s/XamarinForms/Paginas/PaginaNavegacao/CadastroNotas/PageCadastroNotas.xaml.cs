@@ -106,7 +106,7 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
             var evento = (TappedEventArgs)e;
             var modelo = (ModeloNota)evento.Parameter;
 
-            Navigation.PushModalAsync(new XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastrarIndicadorNota(modelo));
+            Navigation.PushModalAsync(new XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastrarIndicadorNota(modelo.Id));
         }
 
         private void AtualizaDados(object sender, EventArgs e)

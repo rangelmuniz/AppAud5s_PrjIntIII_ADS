@@ -1,22 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Seiso(Limpeza)"
-             NavigationPage.HasBackButton="False"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="MediumPurple"
              x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiso">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Seiso(Limpeza)"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Text="Atualizar" HorizontalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AtualizaDados"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="btnProximoSenso"/>
+                    </Label.GestureRecognizers>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text=">" FontSize="30" FontAttributes="Bold"/>
+                            <Span Text="&#10;"/>
+                            <Span Text="Próximo Senso" FontSize="20"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="White"  FontSize="25" Margin="20,40,0,0" FontAttributes="Bold">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="SEISO"/>
+                            <Span Text="&#10;"/>
+                            <Span Text="LIMPEZA"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+            <Frame  Grid.Row="1" CornerRadius="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <CollectionView x:Name="cvListaPerguntaSeiso">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems>
+                                            <SwipeItem BackgroundColor="#EE6C4D" Text="Excluir" Invoked="BtnExcluir" CommandParameter="{Binding .}"/>
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="4*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox/>
+                                        <Label Grid.Column="1">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding Desc_Pergunta}" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </Grid>
+                                </SwipeView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
 
-            <Button Text="Póximo Senso" 
-                    Clicked="AvancaSenso"                    
-                    FontAttributes="Bold" />
-            <Button Text="Voltar" 
-                    Clicked="VoltarSenso" 
-                    VerticalOptions="EndAndExpand" 
-                    FontAttributes="Bold" />
-        </StackLayout>
+                    <Button Text="+" 
+                        FontSize="36" 
+                        TextColor="White"                       
+                        BackgroundColor="MediumPurple"
+                        Clicked="BtnCadastrarPerguntaSeiso"                        
+                        CornerRadius="50"
+                        HorizontalOptions="End"
+                        WidthRequest="75"
+                        HeightRequest="75" VerticalOptions="End"    
+                        TranslationY="-30"/>
+                </Grid>
+            </Frame>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
