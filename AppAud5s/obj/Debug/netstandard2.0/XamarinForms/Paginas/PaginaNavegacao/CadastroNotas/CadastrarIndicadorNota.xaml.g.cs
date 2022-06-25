@@ -18,8 +18,12 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas {
     public partial class CadastrarIndicadorNota : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.CollectionView cvListaIndicador;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CadastrarIndicadorNota));
+            cvListaIndicador = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "cvListaIndicador");
         }
     }
 }

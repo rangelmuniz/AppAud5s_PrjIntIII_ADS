@@ -14,7 +14,7 @@
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"/>
 
-                <Button Text="Iniciar Cadastro" TextColor="Crimson" Clicked="ChamarSensoSeiri"/>
+            <Button Text="Cadastro" TextColor="Crimson" Clicked="BtnGetCadastroModeloPergunta"/>
             <Button Text="Listar Perguntas" Clicked="GetTelaListarPerguntas" />
             <Button Text="Voltar" Clicked="VoltarPaginaAnterior"/>
         </StackLayout>

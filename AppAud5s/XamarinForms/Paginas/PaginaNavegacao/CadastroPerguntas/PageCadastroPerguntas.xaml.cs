@@ -20,10 +20,7 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
 
         }
 
-        private void ChamarSensoSeiri(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Paginas.PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiri());  
-        }
+     
 
         private void VoltarPaginaAnterior(object sender, EventArgs e)
         {
@@ -33,6 +30,11 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
         private void GetTelaListarPerguntas(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PaginaNavegacao.CadastroPerguntas.ListarPerguntas());
+        }
+
+        private void BtnGetCadastroModeloPergunta(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new PaginaNavegacao.CadastroPerguntas.CadastroModeloPergunta());
         }
     }
 }

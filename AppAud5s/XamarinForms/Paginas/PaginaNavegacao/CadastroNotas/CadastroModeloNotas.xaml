@@ -25,9 +25,9 @@
                 </StackLayout>
                  
 
-                    <Editor Placeholder="Nome" AutoSize="TextChanges"  BackgroundColor="White"/>
+                    <Editor x:Name="Nome" Placeholder="Nome" AutoSize="TextChanges"  BackgroundColor="White"/>
 
-                <Button Text="Adicionar" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
+                <Button Text="Adicionar" Clicked="btnSalvarModelo" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
             </StackLayout>  
             
         </Frame>

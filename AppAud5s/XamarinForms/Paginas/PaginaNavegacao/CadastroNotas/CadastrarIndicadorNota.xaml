@@ -20,12 +20,16 @@
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
+                <Label Text="Atualizar" HorizontalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AtualizaDados"/>
+                    </Label.GestureRecognizers>
+                </Label>
                 <Label TextColor="White"  FontSize="30" Margin="20,40,0,0">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Meta"/>
-                            <Span Text="&#10;"/>
-                            <Span Text="Indicadores"/>
+                            <Span Text="Meta Indicadores"/>
+                            <Span Text="&#10;"/>                          
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -35,13 +39,43 @@
                     <Grid.RowDefinitions>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-
+                    <CollectionView x:Name="cvListaIndicador">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems>
+                                            <SwipeItem BackgroundColor="#EE6C4D" Text="Excluir" Invoked="BtnExcluir" CommandParameter="{Binding .}"/>
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="4*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox/>
+                                        <Label Grid.Column="1">                                        
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding Avaliacao}" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                                                    <Span Text="&#10;"/>
+                                                    <Span Text="{Binding Nota_Minima}" FontSize="18" TextColor="Silver"/>
+                                                    <Span Text=" - " FontSize="18" TextColor="Silver"/>
+                                                    <Span Text="{Binding Nota_Maxima}" FontSize="18" TextColor="Silver"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </Grid>
+                                </SwipeView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>                   
 
                     <Button Text="+" 
                         FontSize="36" 
                         TextColor="White"                       
                         BackgroundColor="DarkBlue"
-                        Clicked="BtnCadastrarNovoIndicador" 
+                        Clicked="BtnCadastrarNovoIndicador"                        
                         CornerRadius="50"
                         HorizontalOptions="End"
                         WidthRequest="75"

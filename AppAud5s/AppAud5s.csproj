@@ -12,19 +12,42 @@
 
   <ItemGroup>
     <Compile Remove="AppBase\**" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta1\**" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta2\**" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta\**" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Seiri\**" />
     <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\NovaPasta\**" />
     <EmbeddedResource Remove="AppBase\**" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta1\**" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta2\**" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta\**" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Seiri\**" />
     <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\NovaPasta\**" />
     <None Remove="AppBase\**" />
+    <None Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta1\**" />
+    <None Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta2\**" />
+    <None Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\NovaPasta\**" />
+    <None Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Seiri\**" />
     <None Remove="XamarinForms\Paginas\PaginaNavegacao\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="BancoDados\RepositorySenso.cs" />
+    <Compile Remove="Model\Senso.cs" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\Page1.xaml.cs" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\PageVisualizarIndicador.xaml.cs" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\Teste.xaml.cs" />
     <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page1.xaml.cs" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page2.xaml.cs" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Page1.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\Page1.xaml" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\Teste.xaml" />
     <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page1.xaml" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page2.xaml" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Page1.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,7 +86,16 @@
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroNotas\CadastroModeloNotas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\CadastrarModelo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\CadastroModeloPergunta.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\ListarPerguntas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\CadastroPerguntaSenso.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\PageSensoSeiketsu.xaml">

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Visual="Material"
              x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroNotas.CadastroIndicador">
     <ContentPage.Content>
         <Frame BackgroundColor="WhiteSmoke" CornerRadius="20" Margin="50">
@@ -21,12 +22,22 @@
                         </Label.GestureRecognizers>
                     </Label>
 
-                </StackLayout>
+                </StackLayout>                
+                            
+                <Entry x:Name="NotaMinima" Placeholder="Nota Mínima" Background="White" Keyboard="Numeric"/>
+                <Entry x:Name="NotaMaxima" Placeholder="Nota Máxima" Background="White" Keyboard="Numeric"/>
+                <Picker x:Name="aNomeAvaliacao" Title="Avaliação" SelectedIndexChanged="OnChangeSeletor">
+                    <Picker.Items>
+                        <x:String>Ruim</x:String>
+                        <x:String>Media</x:String>
+                        <x:String>Boa</x:String>
+                        <x:String>Otima</x:String>
+                        <x:String>Nenhum</x:String>
+                    </Picker.Items>                   
+                </Picker>
 
 
-                <Editor Placeholder="Nome" AutoSize="TextChanges"  BackgroundColor="White"/>
-
-                <Button Text="Adicionar" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
+                    <Button Text="Adicionar" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End" Clicked="BtnSalvarIndicador"/>
             </StackLayout>
 
         </Frame>

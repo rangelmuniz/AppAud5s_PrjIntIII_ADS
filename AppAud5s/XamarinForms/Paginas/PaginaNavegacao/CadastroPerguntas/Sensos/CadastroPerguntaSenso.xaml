@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Visual="Material"
+             BackgroundColor="silver"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos.CadastroPerguntaSenso">
+    <ContentPage.Content>
+        <Frame BackgroundColor="WhiteSmoke" CornerRadius="20" Margin="50">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="FillAndExpand">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Cadastrar Pergunta" FontSize="22" TextColor="Black"/>
+                                <Span Text="&#10;"/>                             
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Text="X" FontSize="22" Padding="20,10" HorizontalOptions="End" FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="FecharModal"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+
+
+                <Editor x:Name="desPergunta" Placeholder="Pergunta" AutoSize="TextChanges"  BackgroundColor="White"/>
+
+                <Button Text="Salvar" Clicked="btnSalvarPergunta" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End"/>
+            </StackLayout>
+
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

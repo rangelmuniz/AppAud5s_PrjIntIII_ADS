@@ -21,6 +21,11 @@
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
+                <Label Text="Atualizar" HorizontalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AtualizaDados"/>
+                    </Label.GestureRecognizers>
+                </Label>
                 <Label TextColor="White"  FontSize="30" Margin="20,40,0,0">
                     <Label.FormattedText>
                         <FormattedString>
@@ -33,12 +38,38 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Label Text="AbreCadatroIndicador" FontSize="22" Padding="20,10" FontAttributes="Bold">
-                        <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="AbreCadastroNotasIndicador"/>
-                        </Label.GestureRecognizers>
-                    </Label>
+                    </Grid.RowDefinitions>           
+                    <CollectionView x:Name="cvListaModelos">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems>
+                                            <SwipeItem BackgroundColor="#EE6C4D" Text="Excluir" Invoked="BtnExcluir" CommandParameter="{Binding .}"/>
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="4*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox/>
+                                        <Label Grid.Column="1">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="AbreCadastroNotasIndicador" CommandParameter="{Binding .}"/>
+                                            </Label.GestureRecognizers>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding Nome}" FontSize="22" FontAttributes="Bold"/>
+                                                    <Span Text="&#10;"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </Grid>
+                                </SwipeView>                                 
+                            </DataTemplate> 
+                        </CollectionView.ItemTemplate>                         
+                    </CollectionView>
 
 
 
