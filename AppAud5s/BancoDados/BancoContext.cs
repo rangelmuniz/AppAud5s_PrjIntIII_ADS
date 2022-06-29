@@ -12,9 +12,13 @@ namespace AppAud5s.BancoDados
 
        public DbSet<Indicador> Indicador { get; set; }
 
-      public DbSet<ModeloPergunta>  ModeloPergunta { get; set; }
+       public DbSet<ModeloPergunta>  ModeloPergunta { get; set; }
 
-      public DbSet<Pergunta> Pergunta { get; set; } 
+       public DbSet<Pergunta> Pergunta { get; set; }
+
+       public DbSet<Questionario> Questionario { get; set; }
+
+       public DbSet<QuestionarioSenso> QuestionarioSenso { get; set; } 
 
         public BancoContext()
         {

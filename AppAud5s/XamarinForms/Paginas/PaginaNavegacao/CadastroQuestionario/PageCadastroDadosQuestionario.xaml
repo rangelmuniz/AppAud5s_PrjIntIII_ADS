@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Visual="Material"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroQuestionario.PageCadastroDadosQuestionario">
+    <ContentPage.Content>
+        <Frame BackgroundColor="WhiteSmoke" CornerRadius="20" Margin="50">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="FillAndExpand">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Cadastrar Dados" FontSize="22" TextColor="Silver"/>
+                                <Span Text="&#10;"/>
+                                <Span Text="Questionário" FontSize="30" FontAttributes="Bold" TextColor="Black"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Text="X" FontSize="22" Padding="20,10" HorizontalOptions="End" FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="FecharModal"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+
+                <Entry x:Name="entNomeAuditor" Placeholder="Auditor" Background="White" />
+                <Entry x:Name="entSetor" Placeholder="Setor" Background="White" />
+                <Label Text="Data Auditoria"/>
+                <DatePicker x:Name="dpDataAuditoria" Format="dd/MM/yyyy"/> 
+                
+                <Button Text="Salvar" BackgroundColor="SlateBlue" VerticalOptions="EndAndExpand" HorizontalOptions="End" Clicked="BtnSalvarDados"/>
+            </StackLayout>
+
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

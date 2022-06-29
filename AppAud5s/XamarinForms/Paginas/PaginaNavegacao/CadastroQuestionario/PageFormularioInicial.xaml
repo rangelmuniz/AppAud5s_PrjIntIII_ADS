@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Silver"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroQuestionario.PageFormularioInicial">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Text="Atualizar" HorizontalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AtualizaDados"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label TextColor="White"  FontSize="30" Margin="20,40,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Dados Questionário"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+            <Frame  Grid.Row="1" CornerRadius="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <CollectionView x:Name="cvListaDadosQuestionario">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems>
+                                            <SwipeItem BackgroundColor="#EE6C4D" Text="Excluir" Invoked="BtnExcluir" CommandParameter="{Binding .}"/>
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="4*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox/>
+                                        <Label Grid.Column="1">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="AbreQuestionarioSensoSeiri" CommandParameter="{Binding .}"/>
+                                            </Label.GestureRecognizers>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="Nome Auditor"/>
+                                                    <Span Text="&#10;"/>
+                                                    <Span Text="{Binding Nome_Auditor}" FontSize="22" FontAttributes="Bold"/>
+                                                    <Span Text="&#10;"/>
+                                                    <Span Text="Setor"/>
+                                                    <Span Text="&#10;"/>
+                                                    <Span Text="{Binding Setor}" FontSize="22" FontAttributes="Bold"/>
+                                                    <Span Text="&#10;"/>
+                                                    <Span Text="Data Auditoria"/>
+                                                    <Span Text="&#10;"/>
+                                                    <Span Text="{Binding Data_Auditoria}" FontSize="22" FontAttributes="Bold"/>
+                                                    <Span Text="&#10;"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </Grid>
+                                </SwipeView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+
+
+
+                    <Button Text="+" 
+                        FontSize="36" 
+                        TextColor="White"                       
+                        BackgroundColor="GreenYellow" 
+                        Clicked="BtnCadastrarDadosQuetionario" 
+                        CornerRadius="50"
+                        HorizontalOptions="End"
+                        WidthRequest="75"
+                        HeightRequest="75" VerticalOptions="End"    
+                        TranslationY="-30"/>
+                </Grid>
+            </Frame>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

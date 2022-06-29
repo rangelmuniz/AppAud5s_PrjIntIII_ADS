@@ -40,6 +40,7 @@
     <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page1.xaml.cs" />
     <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page2.xaml.cs" />
     <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Page1.xaml.cs" />
+    <Compile Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Page1.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,6 +49,7 @@
     <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page1.xaml" />
     <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Page2.xaml" />
     <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\Sensos\Page1.xaml" />
+    <EmbeddedResource Remove="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Page1.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -119,7 +121,28 @@
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroPerguntas\PageCadastroPerguntas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\PageQuestionario.xaml">
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\PageCadastroDadosQuestionario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\PageFormularioInicial.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\PageQuestionario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Sensos\PageQuestionarioSensoSeiketsu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Sensos\PageQuestionarioSensoSeiri.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Sensos\PageQuestionarioSensoSeiso.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Sensos\PageQuestionarioSensoSeiton.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaNavegacao\CadastroQuestionario\Sensos\PageQuestionarioSensoShitsuke.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

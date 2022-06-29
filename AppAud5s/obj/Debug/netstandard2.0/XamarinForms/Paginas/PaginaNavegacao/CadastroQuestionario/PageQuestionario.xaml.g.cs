@@ -8,17 +8,22 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageQuestionario.xaml", "XamarinForms/Paginas/PaginaNavegacao/PageQuestionario.xaml", typeof(global::AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageQuestionario))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroQuestionario.PageQuestionar" +
+    "io.xaml", "XamarinForms/Paginas/PaginaNavegacao/CadastroQuestionario/PageQuestionario.xaml", typeof(global::AppAud5s.XamarinForms.Paginas.PaginaNavegacao.PageQuestionario))]
 
 namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Paginas\\PaginaNavegacao\\PageQuestionario.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Paginas\\PaginaNavegacao\\CadastroQuestionario\\PageQuestionario.xaml")]
     public partial class PageQuestionario : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.CollectionView cvListaModeloPerguntas;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PageQuestionario));
+            cvListaModeloPerguntas = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "cvListaModeloPerguntas");
         }
     }
 }

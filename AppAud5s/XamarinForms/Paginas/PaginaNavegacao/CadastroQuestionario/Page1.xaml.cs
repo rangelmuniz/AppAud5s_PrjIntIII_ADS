@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao
+namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroQuestionario
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageQuestionario : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public PageQuestionario()
+        public Page1()
         {
             InitializeComponent();
         }

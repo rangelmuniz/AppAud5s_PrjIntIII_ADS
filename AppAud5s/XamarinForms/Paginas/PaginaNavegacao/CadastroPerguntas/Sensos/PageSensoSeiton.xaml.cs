@@ -78,7 +78,7 @@ namespace AppAud5s.XamarinForms.Paginas.PaginaNavegacao.CadastroPerguntas.Sensos
 
         private void btnProximoSenso(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiso());
+            Navigation.PushAsync(new PaginaNavegacao.CadastroPerguntas.Sensos.PageSensoSeiso(IdModeloPergunta));
 
         }
 
